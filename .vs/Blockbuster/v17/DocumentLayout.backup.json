@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\Blockbuster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|c:\\users\\angel\\source\\repos\\blockbuster\\blockbuster\\infrastructure\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|solutionrelative:blockbuster\\infrastructure\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|c:\\users\\angel\\source\\repos\\blockbuster\\blockbuster\\domain\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|solutionrelative:blockbuster\\domain\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|c:\\users\\angel\\source\\repos\\blockbuster\\blockbuster\\application\\dtos\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|solutionrelative:blockbuster\\application\\dtos\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|c:\\users\\angel\\source\\repos\\blockbuster\\blockbuster\\application\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|solutionrelative:blockbuster\\application\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|c:\\users\\angel\\source\\repos\\blockbuster\\blockbuster\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F2545B-7F20-438C-9877-B315A25CD980}|Blockbuster\\Blockbuster.csproj|solutionrelative:blockbuster\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RentalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Infrastructure\\Repositories\\RentalRepository.cs",
+              "RelativeDocumentMoniker": "Blockbuster\\Infrastructure\\Repositories\\RentalRepository.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Infrastructure\\Repositories\\RentalRepository.cs*",
+              "RelativeToolTip": "Blockbuster\\Infrastructure\\Repositories\\RentalRepository.cs*",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAcwIcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:31:57.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Domain\\Entities\\Rental.cs",
+              "RelativeDocumentMoniker": "Blockbuster\\Domain\\Entities\\Rental.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Domain\\Entities\\Rental.cs",
+              "RelativeToolTip": "Blockbuster\\Domain\\Entities\\Rental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:27:35.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Application\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Blockbuster\\Application\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Application\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Blockbuster\\Application\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA3wDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:13:28.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Application\\DTOs\\RentalDTO.cs",
+              "RelativeDocumentMoniker": "Blockbuster\\Application\\DTOs\\RentalDTO.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Application\\DTOs\\RentalDTO.cs",
+              "RelativeToolTip": "Blockbuster\\Application\\DTOs\\RentalDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:13:27.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieDTO.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Application\\DTOs\\MovieDTO.cs",
+              "RelativeDocumentMoniker": "Blockbuster\\Application\\DTOs\\MovieDTO.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Application\\DTOs\\MovieDTO.cs",
+              "RelativeToolTip": "Blockbuster\\Application\\DTOs\\MovieDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:13:25.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
