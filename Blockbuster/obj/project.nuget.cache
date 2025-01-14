@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GH6Yv6qpQFI=",
+  "dgSpecHash": "cNkNpoHO9ek=",
   "success": true,
-  "projectFilePath": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Blockbuster.csproj",
+  "projectFilePath": "C:\\Users\\angel\\Documents\\t2m\\blockbuster-api\\Blockbuster\\Blockbuster.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",

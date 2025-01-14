@@ -84,13 +84,18 @@ namespace Blockbuster.Test.Domain.Services
         {
             // Arrange
             var movies = new List<Movie>();
+            var baseDate = DateTime.UtcNow.AddDays(-30); // Start from 30 days ago
+
             for (int i = 0; i < 15; i++)
             {
                 var movie = new Movie($"Movie {i}", "Description", 9.99m);
                 // Add different number of rentals to each movie
                 for (int j = 0; j < i; j++)
                 {
-                    movie.AddRental(new Rental(1, i, DateTime.UtcNow, DateTime.UtcNow.AddDays(7)));
+                    // Space out rentals by 2 days each to avoid overlap
+                    var startDate = baseDate.AddDays(j * 2);
+                    var endDate = startDate.AddDays(1);
+                    movie.AddRental(new Rental(1, i, startDate, endDate));
                 }
                 movies.Add(movie);
             }

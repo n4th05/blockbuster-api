@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Blockbuster.csproj": {}
+    "C:\\Users\\angel\\Documents\\t2m\\blockbuster-api\\Blockbuster\\Blockbuster.csproj": {}
   },
   "projects": {
-    "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Blockbuster.csproj": {
+    "C:\\Users\\angel\\Documents\\t2m\\blockbuster-api\\Blockbuster\\Blockbuster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Blockbuster.csproj",
+        "projectUniqueName": "C:\\Users\\angel\\Documents\\t2m\\blockbuster-api\\Blockbuster\\Blockbuster.csproj",
         "projectName": "Blockbuster",
-        "projectPath": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\Blockbuster.csproj",
+        "projectPath": "C:\\Users\\angel\\Documents\\t2m\\blockbuster-api\\Blockbuster\\Blockbuster.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\source\\repos\\Blockbuster\\Blockbuster\\obj\\",
+        "outputPath": "C:\\Users\\angel\\Documents\\t2m\\blockbuster-api\\Blockbuster\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
