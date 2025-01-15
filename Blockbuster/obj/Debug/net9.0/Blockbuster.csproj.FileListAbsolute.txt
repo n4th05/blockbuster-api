@@ -219,8 +219,8 @@ C:\Users\angel\source\repos\Blockbuster\Blockbuster\obj\Debug\net9.0\refint\Bloc
 C:\Users\angel\source\repos\Blockbuster\Blockbuster\obj\Debug\net9.0\Blockbuster.pdb
 C:\Users\angel\source\repos\Blockbuster\Blockbuster\obj\Debug\net9.0\Blockbuster.genruntimeconfig.cache
 C:\Users\angel\source\repos\Blockbuster\Blockbuster\obj\Debug\net9.0\ref\Blockbuster.dll
-C:\Users\angel\Documents\t2m\blockbuster-api\Blockbuster\bin\Debug\net9.0\testhost.exe
 C:\Users\angel\Documents\t2m\blockbuster-api\Blockbuster\bin\Debug\net9.0\testhost.dll
+C:\Users\angel\Documents\t2m\blockbuster-api\Blockbuster\bin\Debug\net9.0\testhost.exe
 C:\Users\angel\Documents\t2m\blockbuster-api\Blockbuster\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\angel\Documents\t2m\blockbuster-api\Blockbuster\bin\Debug\net9.0\appsettings.json
 C:\Users\angel\Documents\t2m\blockbuster-api\Blockbuster\bin\Debug\net9.0\Blockbuster.staticwebassets.endpoints.json

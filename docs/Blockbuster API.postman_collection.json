@@ -1,0 +1,688 @@
+{
+	"info": {
+		"_postman_id": "ac3937a0-b5a1-4a12-947e-c4edf04d93ae",
+		"name": "Blockbuster API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38676473"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Get All Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/User",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/User/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users with Active Rentals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/User/with-active-rentals",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User",
+								"with-active-rentals"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users Who Rented Movie",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/User/movie/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User",
+								"movie",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users with Rental History",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/User/with-rental-history",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User",
+								"with-rental-history"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/User/search?name=John&email=john@example.com&hasActiveRentals=true",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "John"
+								},
+								{
+									"key": "email",
+									"value": "john@example.com"
+								},
+								{
+									"key": "hasActiveRentals",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Roseli Soares\",\n    \"email\": \"roseli@example.com\",\n    \"phone\": \"4555485213\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/User",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"John Doe Updated\",\n    \"email\": \"john.updated@example.com\",\n    \"phone\": \"0987654321\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/User/2",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/User/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"User",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Rental",
+			"item": [
+				{
+					"name": "Get All Rentals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Rental By UserId and MovieId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental/1/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental",
+								"1",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Rental",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\": 15,\n    \"movieId\": 2,\n    \"startDate\": \"2025-05-14T00:00:00Z\",\n    \"endDate\": \"2025-05-21T00:00:00Z\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Rental",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"startDate\": \"2025-01-14T00:00:00Z\",\n    \"endDate\": \"2025-01-28T00:00:00Z\",\n    \"status\": \"Active\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental/1/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental",
+								"1",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Rental",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental/1/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental",
+								"1",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Active Rentals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental/active",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental",
+								"active"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Overdue Rentals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental/overdue",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental",
+								"overdue"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Upcoming Rentals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental/upcoming",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental",
+								"upcoming"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Rentals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental/search?startDate=2025-01-01T00:00:00Z&endDate=2025-12-31T23:59:59Z&userName=John&movieTitle=Matrix&isActive=true&isOverdue=false",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental",
+								"search"
+							],
+							"query": [
+								{
+									"key": "startDate",
+									"value": "2025-01-01T00:00:00Z",
+									"description": "Start date for rental search"
+								},
+								{
+									"key": "endDate",
+									"value": "2025-12-31T23:59:59Z",
+									"description": "End date for rental search"
+								},
+								{
+									"key": "userName",
+									"value": "John",
+									"description": "User name to search for"
+								},
+								{
+									"key": "movieTitle",
+									"value": "Matrix",
+									"description": "Movie title to search for"
+								},
+								{
+									"key": "isActive",
+									"value": "true",
+									"description": "Active rental status"
+								},
+								{
+									"key": "isOverdue",
+									"value": "false",
+									"description": "Overdue rental status"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Rental Statistics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Rental/statistics",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Rental",
+								"statistics"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Movie",
+			"item": [
+				{
+					"name": "Get All Movies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Movie By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Trending Movies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie/trending",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie",
+								"trending"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Available Movies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie/available",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie",
+								"available"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Movies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie/search?title=Matrix&description=sci-fi&minValue=5&maxValue=20&isAvailable=true",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Matrix",
+									"description": "Movie title to search for"
+								},
+								{
+									"key": "description",
+									"value": "sci-fi",
+									"description": "Description to search for"
+								},
+								{
+									"key": "minValue",
+									"value": "5",
+									"description": "Minimum value"
+								},
+								{
+									"key": "maxValue",
+									"value": "20",
+									"description": "Maximum value"
+								},
+								{
+									"key": "isAvailable",
+									"value": "true",
+									"description": "Availability status"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Movie",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"The Matrix\",\n    \"description\": \"A computer programmer discovers a mysterious world.\",\n    \"value\": 15.99,\n    \"isAvailable\": true\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Movie",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"The Matrix Reloaded\",\n    \"description\": \"The sequel to The Matrix\",\n    \"value\": 19.99,\n    \"isAvailable\": true\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Movie",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Movie Statistics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/Movie/statistics",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Movie",
+								"statistics"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:5000"
+		}
+	]
+}
